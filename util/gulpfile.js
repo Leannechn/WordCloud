@@ -11,7 +11,7 @@ var server = lr();
 
 gulp.task('default', function () {
     var server = refresh();
-    gulp.watch('E:/works/eclipse-workspace/lngaweb/src/main/webapp/**/*.*', function (file) {
+    gulp.watch('E:/main/WordCloud/noodeServer/**/*.*', function (file) {
         server.changed(file.path);
     });
 });
